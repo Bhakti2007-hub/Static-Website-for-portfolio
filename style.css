@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+header .highlight {
+  color: #00bcd4;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #00bcd4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+nav {
+  background: #444;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav a {
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #00bcd4;
+}
+section {
+  padding: 40px 20px;
+}
+.project-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.skills .skill {
+  margin-bottom: 15px;
+}
+.bar {
+  background: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  background: #00bcd4;
+}
+.progress.html { width: 90%; }
+.progress.css { width: 80%; }
+.progress.js { width: 75%; }
+
+form input, form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+form button {
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
